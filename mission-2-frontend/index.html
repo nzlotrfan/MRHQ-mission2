@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <form
+      ref="uploadForm"
+      id="uploadForm"
+      action="http://localhost:8000/upload"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <input type="file" name="userImage" />
+      <input type="submit" value="Upload!" />
+
+      <img id="uploadedPic" width="200" />
+    </form>
+  </body>
+</html>
